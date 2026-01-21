@@ -1,0 +1,51 @@
+.bookmark-list {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.bookmark-list h3 {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bookmark-icon {
+  font-size: 16px;
+}
+
+.bookmark-content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.bookmark-content .bookmark-list1 {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #cfceff;
+  padding: 15px;
+}
+
+.bookmark-list1 .dlt-icon {
+  color: #d10f0f;
+  font-size: 25px;
+}
+
+.bookmark-list1 .edit-icon {
+  color: #0d09ec;
+  font-size: 25px;
+}
+
+.search-input {
+  padding: 8px 12px;
+  width: 260px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
